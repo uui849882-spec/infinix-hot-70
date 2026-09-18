@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <!-- Background Circle -->
+    <path
+        android:fillColor="#0D2B20"
+        android:pathData="M32,2 A30,30 0 1,0 32,62 A30,30 0 1,0 32,2 Z" />
+    <!-- Golden Border Ring -->
+    <path
+        android:strokeColor="#C5A059"
+        android:strokeWidth="1.5"
+        android:pathData="M32,3 A29,29 0 1,0 32,61 A29,29 0 1,0 32,3 Z" />
+    <!-- Turban / Kufiyah Head Cover -->
+    <path
+        android:fillColor="#F4E9D0"
+        android:pathData="M22,24 C22,16 42,16 42,24 C42,28 22,28 22,24 Z" />
+    <!-- Face -->
+    <path
+        android:fillColor="#DFBA90"
+        android:pathData="M25,25 C25,33 39,33 39,25 C39,22 25,22 25,25 Z" />
+    <!-- Dignified Beard -->
+    <path
+        android:fillColor="#1A382B"
+        android:pathData="M25,30 C25,41 39,41 39,30 C35,34 29,34 25,30 Z" />
+    <!-- Robe / Bisht -->
+    <path
+        android:fillColor="#091E16"
+        android:pathData="M14,56 C14,44 26,40 32,40 C38,40 50,44 50,56 Z" />
+    <!-- Golden Bisht Collar Embroidery -->
+    <path
+        android:strokeColor="#DFC15D"
+        android:strokeWidth="1.5"
+        android:pathData="M26,43 L32,54 L38,43" />
+</vector>

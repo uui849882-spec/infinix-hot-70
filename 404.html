@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>القرآن الكريم والأذكار | إعادة التوجيه</title>
+    <script>
+        // Automatic Single-Page-App redirect to root index.html to prevent 404 errors on GitHub Pages
+        var pathSegmentsToKeep = 0;
+        var l = window.location;
+        // Redirect back to base path
+        window.location.replace(
+            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?p=/' +
+            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+            (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash
+        );
+    </script>
+    <style>
+        body {
+            background-color: #0A1B14;
+            color: #FFFFFF;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Tahoma, sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            padding: 20px;
+        }
+        .box {
+            background: #143528;
+            border: 1px solid #C5A059;
+            border-radius: 16px;
+            padding: 2.5rem;
+            max-width: 480px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        h1 { color: #E5C37A; margin-bottom: 1rem; }
+        p { color: #B8C7C0; margin-bottom: 1.5rem; font-size: 1rem; }
+        a {
+            background: #C5A059;
+            color: #0A1B14;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 0.75rem 1.75rem;
+            border-radius: 25px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>📖 جاري التحويل...</h1>
+        <p>جاري توجيهك إلى تطبيق وموقع القرآن الكريم والأذكار.</p>
+        <a href="./">العودة إلى الصفحة الرئيسية</a>
+    </div>
+</body>
+</html>
